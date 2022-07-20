@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(212, 212, 212);
+}
+
+.achicar img{
+    width: 100%;
+    display: flex;
+    background-color: #EAC926;
+    padding: .4rem;
+    flex-direction: column;
+    align-items: stretch
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+form input{
+    background-color: white;
+    padding: .3rem;
+    border-radius: 4%;
+    width: 90%;
+    border: none;
+}
+
+fieldset{
+    border: none;
+}
+
+legend{
+    display: flex;
+    margin-right: 150px;
+    padding: .4rem;
+    color: black;
+    font-weight: bold;
+}
+
+fieldset.perfil{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    padding: .4rem;
+}
+
+.perfil legend{
+    margin-right: 175px;
+}
+
+.interes legend{
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+
+.interes label{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 250px;
+    margin-left: -120px;
+}
+
+.archivo input{
+    width: 32%;
+    background-color: rgb(143, 143, 172);
+}
+
+
+.n-Nacimientno{
+    padding: 1rem;
+}
+
+.archivo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 4vh;
+    padding-bottom: 0.4rem;
+}
+
+@media screen  and (min-width:769px){
+
+    header{
+        width: auto;
+        background-color: #EAC926;
+    }
+    
+    header img{
+       background-color: #EAC926;
+       width: 20%;
+    }
+
+    input#foto{
+        display: flex;
+        width: 8.5%;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .mover label{
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: stretch;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+        padding: .9rem;
+    }
+
+    input#moda{
+        margin-left: 8px;
+    }
+
+    input#hogar{
+        margin-left: 6px;
+    }
+
+    input#jugueteria{
+        margin-right: 16px;
+    }
+
+    input#vSana{
+        margin-left: -8px;
+    }
+
+    .botones{
+        height: 6vh;
+    }
+
+}

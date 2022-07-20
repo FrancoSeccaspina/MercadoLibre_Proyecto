@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald&family=Roboto&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="../public/css/registro.css">
+    <title>Registrate</title>
+</head>
+
+<header>
+
+    <img src="../public/img/logo-mercado-liebre.svg" alt="LogoMercadoLibre">
+
+</header>
+
+<main>
+
+    <body>
+        
+        <form action="/" method="POST">
+            
+            <label for="nombre"></label>
+            
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+            
+            <label for="nUsuario"></label>
+            
+            <input type="text" id="nUsuario" name="nUsuario" placeholder="Nombre Usuario">
+            
+            <fieldset class="n-Nacimientno">
+                
+                <legend>Fecha de Nacimiento</legend>
+                
+                <label for="nacimiento"></label>
+                
+                <input type="date" id="nacimiento" name="nacimiento" placeholder="nacimiento">
+                
+                
+            </fieldset>
+        
+            
+            <label for="domicilio"></label>
+            
+            <input type="text" id="domicilio" name="domicilio" placeholder="Domicilio">
+            
+            <fieldset class="perfil">
+
+                <legend>Perfil del Usuario</legend>
+
+                <input type="radio" name="comprador" id="comprador">
+                
+                <label for="comprador">comprador</label>
+
+                <input type="radio" name="vendedor" id="vendedor">
+
+                <label for="vendedor">Vendedor</label>
+                
+            </fieldset>
+                
+            <fieldset class="interes">
+                
+                <legend>Interes</legend>
+                
+                <section class="mover">
+ 
+                    <label for="electro"><input type="checkbox" id="electro" name="electro">Electro</label>
+                    
+                    <label for="moda"><input type="checkbox" id="moda" name="moda">Moda</label>
+                    
+                    <label for="hogar"><input type="checkbox" id="hogar" name="hogar">Hogar</label>
+                    
+                    <label for="jugueteria"><input type="checkbox" id="jugueteria" name="jugueteria">Jugeteria</label>
+                    
+                    <label for="vSana"><input type="checkbox" id="vSana" name="vSana">Vida Sana</label> 
+                    
+                </section>
+                  
+            </fieldset>
+
+            <section class="archivo">
+
+                <label for="foto"></label>
+                
+                <input type="file" name="foto" id="foto" placeholder="elegi Archivo">
+                
+            </section>
+
+            <label for="contraseña"></label>
+
+            <input type="password" name="contraseña"  id="contraseña" placeholder="Contraseña">
+
+            <label for="c-Contra"></label>
+
+            <input type="password" name="c-Contra" id="c-Contra" placeholder="Confirmar contraseña">
+
+            <section class="botones">
+
+                <button type="submit">Enviar</button>
+                
+                <button type="reset">Eliminar</button>
+                
+            </section>
+
+        </form>
+
+    </main>
+        
+</body>
+</html>
